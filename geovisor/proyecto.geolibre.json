@@ -1,19 +1,74 @@
 {
-  "version": "1.0.0",
+  "basemapOpacity": 1,
+  "basemapStyleUrl": "https://tiles.openfreemap.org/styles/positron",
+  "basemapVisible": true,
+  "blankBackgroundColor": null,
+  "comments": [],
   "id": "geolibre-xx-iniciativa-plantilla",
-  "name": "Plantilla GeoLibre",
-  "description": "Estructura reutilizable para crear repositorios independientes de proyectos urbanos con manifiesto validado, documentación colaborativa y geovisor basado en GeoLibre.",
-  "map": {
-    "engine": "maplibre",
+  "layerGroups": [],
+  "layers": [],
+  "legend": {
+    "groupByLayer": true,
+    "order": [],
+    "overrides": {},
+    "title": "Capas del proyecto"
+  },
+  "mapView": {
+    "bearing": 0,
     "center": [
       -84.0,
       13.5
     ],
-    "zoom": 5.0,
-    "bearing": 0,
     "pitch": 0,
-    "basemap": "carto-positron"
+    "zoom": 5.0
   },
-  "sources": {},
-  "layers": []
+  "metadata": {
+    "community": "Comunidad Urbana Copernicus Centroamérica",
+    "description": "Estructura reutilizable para crear repositorios independientes de proyectos urbanos con manifiesto validado, documentación colaborativa y geovisor basado en GeoLibre.",
+    "note": "Vista regional orientativa de plantilla. Sustituir por el centroide y escala declarados de la iniciativa.",
+    "planned_layers": [
+      {
+        "caveat": "TEXTO_PLANTILLA_POR_REEMPLAZAR al personalizar la iniciativa.",
+        "expected_file_hint": "geovisor/data/capa_validada.geojson",
+        "id": "capa-ejemplo-pendiente",
+        "status": "en_preparacion",
+        "title": "Capa inicial prevista (reemplazar en geovisor/layers.json)"
+      }
+    ],
+    "project_id": "xx-iniciativa-plantilla",
+    "referential_frame_only": true,
+    "schema_version": "1.0.0"
+  },
+  "name": "País de la iniciativa · Plantilla Geovisor GeoLibre",
+  "preferences": {
+    "environmentVariables": [],
+    "geocoding": {
+      "apiKeys": {},
+      "providerId": "nominatim"
+    },
+    "map": {
+      "bounds": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "coordinateFormat": "dd",
+      "ellipsoidId": "earth",
+      "maxPitch": 85,
+      "maxZoom": 24,
+      "minZoom": 0,
+      "projection": "mercator",
+      "renderWorldCopies": true,
+      "restrictBounds": false,
+      "scaleUnit": "metric",
+      "showPointerElevation": false,
+      "terrainEnabled": false,
+      "zoomToNewLayers": true
+    }
+  },
+  "primaryRenderer": "maplibre",
+  "selectedLayerId": null,
+  "styles": {},
+  "version": "0.2.0"
 }
