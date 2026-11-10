@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "xx-iniciativa-plantilla",
+  "title": "Plantilla Geovisor GeoLibre",
+  "country": {
+    "code": "XX",
+    "name": "Plantilla"
+  },
+  "map_view": {
+    "center": [
+      -84.0,
+      13.5
+    ],
+    "zoom": 5.0,
+    "declared_centroid": [
+      -84.0,
+      13.5
+    ],
+    "is_referential": true,
+    "reference_note": "Vista regional orientativa de plantilla. Sustituir por el centroide y escala declarados de la iniciativa.",
+    "area_declared": "Por definir al instanciar el proyecto.",
+    "scale_label": "Por definir"
+  },
+  "geolibre_integration": {
+    "web_app_base_url": "https://web.geolibre.app/",
+    "project_file": "geovisor/proyecto.geolibre.json",
+    "embed_layout": "maponly",
+    "supports_local_geojson_preview": true
+  },
+  "planned_controls": [
+    "Configurar controles específicos del PMV al crear el repositorio desde esta plantilla."
+  ],
+  "external_references": [],
+  "layers": [
+    {
+      "id": "capa-ejemplo-pendiente",
+      "title": "Capa inicial prevista (reemplazar en geovisor/layers.json)",
+      "group": "Capas del proyecto",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_preparacion",
+      "source_path": null,
+      "expected_file_hint": "geovisor/data/capa_validada.geojson",
+      "resolution": "Por documentar",
+      "style": {
+        "fill_color": "#007F8B",
+        "fill_opacity": 0.4,
+        "stroke_color": "#14283F",
+        "stroke_width": 1.5
+      },
+      "caveat": "TEXTO_PLANTILLA_POR_REEMPLAZAR al personalizar la iniciativa."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "id": "xx-iniciativa-plantilla",
+  "title": "Plantilla base para iniciativas de la Comunidad Urbana Copernicus Centroamérica",
+  "country": {
+    "code": "XX",
+    "name": "País de la iniciativa"
+  },
+  "source_groups": [
+    1
+  ],
+  "summary": "Estructura reutilizable para crear repositorios independientes de proyectos urbanos con manifiesto validado, documentación colaborativa y geovisor basado en GeoLibre.",
+  "territory": {
+    "label": "Definir territorio de estudio al instanciar la iniciativa",
+    "administrative_units": [],
+    "geometry_url": null
+  },
+  "institutional_use": {
+    "problem": "Reemplazar con el problema territorial documentado en la ficha de la iniciativa.",
+    "institutions": [],
+    "primary_user": null,
+    "decision_supported": null,
+    "expected_benefit": null
+  },
+  "pmv": {
+    "description": null,
+    "scope_status": "por_confirmar",
+    "acceptance_criteria": []
+  },
+  "status": {
+    "development": "por_confirmar",
+    "demo": "por_confirmar",
+    "technical_review": {
+      "state": "pendiente",
+      "evidence_url": null,
+      "date": null,
+      "reviewer": null
+    },
+    "institutional_validation": {
+      "state": "pendiente",
+      "evidence_url": null,
+      "date": null,
+      "reviewer": null
+    },
+    "adoption": {
+      "state": "no_documentada",
+      "evidence_url": null,
+      "date": null
+    }
+  },
+  "links": {
+    "repository": null,
+    "website": null,
+    "demo": null,
+    "documentation": null,
+    "issue_tracker": null
+  },
+  "governance": {
+    "technical_owner": null,
+    "content_owner": null,
+    "update_frequency": null,
+    "content_updated_at": null
+  },
+  "provenance": {
+    "sources": [
+      {
+        "id": "plantilla-v1",
+        "label": "Especificación de plantilla común Comunidad Urbana Copernicus v1.0",
+        "locator": null,
+        "url": null
+      }
+    ],
+    "statements": [
+      {
+        "pointer": "",
+        "status": "propuesta",
+        "source_ids": [
+          "plantilla-v1"
+        ],
+        "note": "Archivo inicial de plantilla; sustituir al crear un repositorio de iniciativa real."
+      }
+    ]
+  },
+  "team": [],
+  "data_sources": [],
+  "methodology": null,
+  "expected_outputs": [],
+  "limitations": [
+    "Esta instancia corresponde a la plantilla técnica vacía y no representa un proyecto territorial activo."
+  ],
+  "tags": [
+    "plantilla"
+  ]
+}

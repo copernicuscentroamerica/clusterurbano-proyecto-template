@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "id": "geolibre-xx-iniciativa-plantilla",
+  "name": "Plantilla GeoLibre",
+  "description": "Estructura reutilizable para crear repositorios independientes de proyectos urbanos con manifiesto validado, documentación colaborativa y geovisor basado en GeoLibre.",
+  "map": {
+    "engine": "maplibre",
+    "center": [
+      -84.0,
+      13.5
+    ],
+    "zoom": 5.0,
+    "bearing": 0,
+    "pitch": 0,
+    "basemap": "carto-positron"
+  },
+  "sources": {},
+  "layers": []
+}
