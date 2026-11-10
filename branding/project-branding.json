@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "xx-iniciativa-plantilla",
+  "theme_version": "2.0.0-copernicus-2026",
+  "updated_at": "2026-11-10",
+  "notes": "Plantilla base de configuración de identidad local para las iniciativas del Clúster Urbano.",
+  "project_logo": null,
+  "institutions": [
+    {
+      "id": "institucion-lider-plantilla",
+      "name": "Institución líder de la iniciativa (plantilla)",
+      "acronym": "INST",
+      "role": "Institución principal declarada en el perfil",
+      "logo_path": null,
+      "alt_text": "Institución líder de la iniciativa (plantilla)",
+      "url": null,
+      "order": 1,
+      "aspect_hint": "horizontal"
+    }
+  ]
+}
